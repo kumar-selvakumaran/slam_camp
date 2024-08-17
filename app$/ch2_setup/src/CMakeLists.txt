@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8 )
+project(HelloSLAM)
+add_library(firstlib libhello.cpp)
+add_executable(helloSLAM hello_world.cpp)
+add_executable(pilotlibuser pilotlibuser.cpp)
+target_link_libraries(pilotlibuser firstlib)
