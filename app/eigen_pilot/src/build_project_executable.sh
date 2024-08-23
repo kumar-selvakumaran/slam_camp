@@ -20,7 +20,7 @@ rm -rf $BUILD_DIR
 
 echo -e "\nBuild completed and build directory deleted.\n\n"
 
-# Step 5: Ask if the executable should be run
+# Ask if executable should be run and do so.
 read -p "Do you want to run the executable? (y/n): " RUN_EXEC
 
 if [[ $RUN_EXEC == "y" || $RUN_EXEC == "Y" ]]; then

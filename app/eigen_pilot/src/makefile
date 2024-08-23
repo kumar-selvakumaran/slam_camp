@@ -4,6 +4,7 @@ CC = g++
 #project name
 PROJECT = app
 
+#executable path
 DEST = ../bin/
 
 #libraries
